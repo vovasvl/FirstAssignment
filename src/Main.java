@@ -11,12 +11,12 @@ public class Main {
             k=input.nextInt();
             list[i]=k;
         }
-        System.out.println("Максимум массива = "+max(list));
+        System.out.println("Минимум массива = "+min(list));
     }
-    public static int max(int[] obj){
+    public static int min(int[] obj){
         int m= obj[0];
         for (int i =0; i<obj.length; i++){
-            if(obj[i]>m){
+            if(obj[i]<m){
                 m=obj[i];
             }
         }
